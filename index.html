@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="cep.ico">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+    <title>Consultar CEP</title>
+</head>
+<body>
+    <h2 id="anuncio">Consulte qualquer CEP aqui!</h2>
+    <div id="cep">
+        <input type="text" class="form-control" id="digitaCep" aria-describedby="emailHelp" placeholder="Digite seu CEP (sem os pontos)">
+        <button id="botao" type="button" class="btn btn-light" onclick="consultaCep()">Consultar</button>
+        <div id="estado">
+            <p id="uf"></p>
+            <img id="bandeira" src="">
+        </div>
+        <p id="localidade"></p>
+        <p id="logradouro"></p>
+        <p id="bairro"></p>
+    </div>
+</body>
+</html>

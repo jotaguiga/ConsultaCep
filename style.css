@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#anuncio{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#cep{
+    background-color: gray;
+    width: 60%;
+    margin: 50px auto 0px auto;
+    padding: 10px 0px;
+    border-radius: 50px;
+}
+
+#digitaCep, #botao{
+    display: block;
+    margin: 10px auto 0px auto;
+}
+
+#digitaCep{
+    width: 70%;
+}
+
+p{  
+    color: white;
+    text-decoration: skyblue;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#estado{
+    margin: 15px 0px;
+}
+
+#uf{
+    display: inline;
+}
+
+#bandeira{
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+    display: none;
+}
